@@ -11,6 +11,7 @@ I am a second-year student at university, studying computer science. I hope I ha
 * JS
 * C#
 ## Code example
+```
  private void ResetGame()
  {
      score = 0;
@@ -26,11 +27,12 @@ I am a second-year student at university, studying computer science. I hope I ha
      isGameRunning = false;
      timer1.Stop();
  }
+```
 ## Experience
 I have experience in programming only from university
 ## Education
-RS School Course "JavaScript/Front-end. Stage 0" (In progress)
-VSPJ, Applied Informatics (In progress)
+* RS School Course "JavaScript/Front-end. Stage 0" (In progress)
+* VSPJ, Applied Informatics (In progress)
 ## Languages
 * Russia (Nativ)
 * Czech (B2)
