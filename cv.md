@@ -11,3 +11,28 @@ I am a second-year student at university, studying computer science. I hope I ha
 * JS
 * C#
 ## Code example
+ private void ResetGame()
+ {
+     score = 0;
+     label1.Text = "Score: " + score;
+     player.Location = initialPlayerPosition;
+     foreach (Control control in this.Controls)
+     {
+         if (control is PictureBox pictureBox)
+         {
+             pictureBox.Location = initialPositions[pictureBox];
+         }
+     }
+     isGameRunning = false;
+     timer1.Stop();
+ }
+## Experience
+I have experience in programming only from university
+## Education
+RS School Course "JavaScript/Front-end. Stage 0" (In progress)
+VSPJ, Applied Informatics (In progress)
+## Languages
+* Russia (Nativ)
+* Czech (B2)
+* English (B1)
+  
