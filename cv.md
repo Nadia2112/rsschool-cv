@@ -36,5 +36,5 @@ I have experience in programming only from university
 ## Languages
 * Russia (Nativ)
 * Czech (B2)
-* English (B1)
+* English (B2)
   
