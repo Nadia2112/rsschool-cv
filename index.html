@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="container">
+    <header>
+<nav>
+    
+        <a href="#About-me">About me</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Contacts">Contacts</a>
+        <a href="#Code-example">Code example</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Education">Education</a>
+        <a href="#Languages">Languages</a>
+    
+</nav>
+<h1>My CV</h1>
+<hr>
+</header>
+<main>
+    <section id="About-me">
+        <h2>About me</h2>
+        <p>I am a second-year student at university, studying computer science. I hope I have enough nerves and diligence to finish it, because I changed my major from economics and I still doubt whether it was the right decision.</p>
+    </section><hr>
+    <section class="b" id="Contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li>Discord - @kibo_des</li>
+            <li>Telegram - @kibononeko</li>
+            <li>Gmail</li>
+            <li>+420 420420420</li>
+        </ul>
+    </section><hr>
+    <section  id="Skills">
+        <h2>Skills</h2>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML&CSS</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">PHP</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">SQL</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">C#</div>
+        </div>
+    
+    </section><hr>
+    <section  id="Code-example">
+        <h2>Code example</h2>
+        <pre>
+        <code>
+            private void ResetGame()
+            {
+                score = 0;
+                label1.Text = "Score: " + score;
+                player.Location = initialPlayerPosition;
+                foreach (Control control in this.Controls)
+                {
+                    if (control is PictureBox pictureBox)
+                    {
+                        pictureBox.Location = initialPositions[pictureBox];
+                    }
+                }
+                isGameRunning = false;
+                timer1.Stop();
+            }
+            
+        </code></pre>
+    </section>  <hr>
+    <section  id="Experience">
+        <h2>Experience</h2>
+        <p>I have experience in programming only from university.</p>
+    </section><hr>
+    <section  id="Education">
+        <h2>Education</h2>
+        <ul>
+            <li>RS School Course "JavaScript/Front-end. Stage 0" (In progress)</li>
+            <li>VSPJ, Applied Informatics (In progress)</li>
+        </ul>
+    </section><hr>
+    <section  id="Languages">
+        <h2>Languages</h2>
+        Russian
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Native</div>
+        </div>
+        <br>
+        Czech
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">B2</div>
+        </div>
+        <br>
+        English
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">B1</div>
+        </div>
+        <br>
+        Spanish
+        <div class="progress">
+            <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">A1</div>
+        </div>
+    </section><hr>
+</main>
+<footer>
+    <ul class="footer-ul">
+<li><a href="https://rs.school/courses/javascript-ru"><img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/34c6c5cbc96ec26fcfdb022d1a6f3b2641f0110c/tasks/cv/rs-school-logo.svg" alt="logo"></a></li>
+<li>&copy;2024</li>
+<li><a href="https://github.com/Nadia2112/rsschool-cv"><img src="https://cdn-icons-png.flaticon.com/128/25/25657.png" alt="github"></a></li>
+</ul></footer>
+</div>
+</body>
+</html>
